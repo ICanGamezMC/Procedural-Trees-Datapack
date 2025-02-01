@@ -1,3 +1,6 @@
+execute as @e[type=snowball] at @s store result score @s Rng1 run random value 1..50
+
+
 #This is oak tree
 execute as @e[tag=Stump] at @s store result score @s Rng1 run random value 1..50
 execute as @e[tag=Branch] at @s store result score @s Rng1 run random value 1..4
