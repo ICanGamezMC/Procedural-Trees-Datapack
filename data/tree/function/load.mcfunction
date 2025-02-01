@@ -1,4 +1,4 @@
-say loaded
+say loaded test demo 1.2
 
 scoreboard objectives add TreeStep dummy
 
