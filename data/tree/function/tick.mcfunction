@@ -30,6 +30,12 @@ execute as @e[tag=Leaves4] at @s store result score @s Rng2 run random value 1..
 
 
 
+
+
+
+
+
+
 #This is for Oak Bush
 execute as @e[tag=Bush1] at @s store result score @s Rng1 run random value 1..50
 execute as @e[tag=Bush1] at @s store result score @s Rng2 run random value 1..4
@@ -37,7 +43,6 @@ execute as @e[tag=BushLeaves1] at @s store result score @s Rng1 run random value
 execute as @e[tag=BushLeaves1] at @s store result score @s Rng2 run random value 1..2
 execute as @e[tag=BushBranch1] at @s store result score @s Rng1 run random value 1..4
 execute as @e[tag=BushBranch1] at @s store result score @s Rng2 run random value 1..2
-
 
 #This is for Spruce Bush
 execute as @e[tag=Bush2] at @s store result score @s Rng1 run random value 1..50
@@ -54,3 +59,11 @@ execute as @e[tag=BushLeaves3] at @s store result score @s Rng1 run random value
 execute as @e[tag=BushLeaves3] at @s store result score @s Rng2 run random value 1..2
 execute as @e[tag=BushBranch3] at @s store result score @s Rng1 run random value 1..4
 execute as @e[tag=BushBranch3] at @s store result score @s Rng2 run random value 1..2
+
+#This is for Birch Bush
+execute as @e[tag=Bush4] at @s store result score @s Rng1 run random value 1..50
+execute as @e[tag=Bush4] at @s store result score @s Rng2 run random value 1..4
+execute as @e[tag=BushLeaves4] at @s store result score @s Rng1 run random value 1..4
+execute as @e[tag=BushLeaves4] at @s store result score @s Rng2 run random value 1..2
+execute as @e[tag=BushBranch4] at @s store result score @s Rng1 run random value 1..4
+execute as @e[tag=BushBranch4] at @s store result score @s Rng2 run random value 1..2
