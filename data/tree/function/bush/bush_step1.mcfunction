@@ -1,9 +1,9 @@
 execute as @e[tag=Bush1] at @s run setblock ~ ~ ~ spruce_fence replace
 execute as @e[tag=Bush1] at @s run tp @s ~ ~1 ~
-execute as @e[tag=Stump] at @s[scores={Rng1=1}] unless entity @s[tag=stop] run tp @s ~ ~ ~1
-execute as @e[tag=Stump] at @s[scores={Rng1=2}] unless entity @s[tag=stop] run tp @s ~ ~ ~-1
-execute as @e[tag=Stump] at @s[scores={Rng1=3}] unless entity @s[tag=stop] run tp @s ~1 ~ ~
-execute as @e[tag=Stump] at @s[scores={Rng1=4}] unless entity @s[tag=stop] run tp @s ~-1 ~ ~
+execute as @e[tag=Bush1] at @s[scores={Rng1=1}] unless entity @s[tag=stop] run tp @s ~ ~ ~1
+execute as @e[tag=Bush1] at @s[scores={Rng1=2}] unless entity @s[tag=stop] run tp @s ~ ~ ~-1
+execute as @e[tag=Bush1] at @s[scores={Rng1=3}] unless entity @s[tag=stop] run tp @s ~1 ~ ~
+execute as @e[tag=Bush1] at @s[scores={Rng1=4}] unless entity @s[tag=stop] run tp @s ~-1 ~ ~
 
 #This is a timer
 execute as @e[tag=BushBranch1] at @s run scoreboard players add @s time 1
