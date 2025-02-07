@@ -14,3 +14,6 @@ give @s slime_spawn_egg[item_name='"Spruce Bush"',entity_data={id:"minecraft:mar
 give @s slime_spawn_egg[item_name='"Birch Bush"',entity_data={id:"minecraft:marker",Tags:["Bush3"]}] 1
 give @s slime_spawn_egg[item_name='"Jungle Bush"',entity_data={id:"minecraft:marker",Tags:["Bush4"]}] 1
 give @s slime_spawn_egg[item_name='"Acacia Bush"',entity_data={id:"minecraft:marker",Tags:["Bush5"]}] 1
+
+#Forests
+give @s snowball[custom_name='["",{"text":"Oak Forest","italic":false}]',custom_data={Forest:1}] 1

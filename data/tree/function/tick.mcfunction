@@ -71,3 +71,8 @@ execute as @e[tag=BushLeaves5] at @s store result score @s Rng1 run random value
 execute as @e[tag=BushLeaves5] at @s store result score @s Rng2 run random value 1..2
 execute as @e[tag=BushBranch5] at @s store result score @s Rng1 run random value 1..4
 execute as @e[tag=BushBranch5] at @s store result score @s Rng2 run random value 1..2
+
+#/////////////////////////////////////////////////////////////////////////////////////
+
+#This is oak forest
+execute as @e[tag=Forest] at @s store result score @s Rng1 run random value 1..50

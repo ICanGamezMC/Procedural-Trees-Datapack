@@ -6,6 +6,7 @@
     "tree:tree_step2",
     "tree:tree_step",
     "tree:bush/tick",
+    "tree:forest/tick",
     "tree:snowball/tick"
 ]
 }
